@@ -1,5 +1,26 @@
 # FreeCAD numbered backup files (for example, Project.FCStd1)
 *.FCStd[0-9]*
 
+# FreeCAD autosave/recovery files
+*.FCStd1
+*.FCStd2
+*.FCStd3
+*.FCBak
+*.FCStd.*
+
+# FreeCAD generated mesh exports (uncomment if these are reproducible)
+# *.stl
+# *.obj
+
 # macOS AppleDouble sidecar files
 ._*
+
+# macOS metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# FreeCAD and other application temporary files
+*.tmp
+*.temp
+*~
