@@ -1,0 +1,5 @@
+# FreeCAD numbered backup files (for example, Project.FCStd1)
+*.FCStd[0-9]*
+
+# macOS AppleDouble sidecar files
+._*
